@@ -1,0 +1,15 @@
+services:
+  instrument_separation:
+    build: ./
+    tty: true
+    container_name: instrument_separation
+    volumes:
+      - .:/usr/src/code
+    working_dir: /usr/src/code/
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [ gpu ]

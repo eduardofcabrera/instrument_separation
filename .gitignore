@@ -1,0 +1,9 @@
+/model
+/musdb18
+/musdb18hq
+/venv
+/examples
+/inference
+/.vscode
+/__pycache__
+/results

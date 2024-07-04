@@ -1,0 +1,17 @@
+black
+tqdm
+h5py
+polars
+scikit-learn
+matplotlib
+gdown
+seaborn
+pyyaml
+mypy
+uniplot
+pytorch_forecasting
+wandb
+sphinx
+sphinx-rtd-theme
+flask
+jsonschema
